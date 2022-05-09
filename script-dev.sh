@@ -100,3 +100,8 @@ sudo apt install ./mockoon-1.18.1.deb -y
 echo "############################## Instalando o Google  Chrome##############################"
 wget -O ~/google-chrome.deb "https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 sudo apt install ~/google-chrome.deb -y
+
+
+echo "Instalando o gnome-tweaks"
+sudo apt install gnome-tweaks -y
+
