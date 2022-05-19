@@ -102,6 +102,10 @@ wget -O ~/google-chrome.deb "https://dl.google.com/linux/direct/google-chrome-st
 sudo apt install ~/google-chrome.deb -y
 
 
+echo "############################## Instalando o Gnome-extensions ##############################"
+
+sudo apt-get install chrome-gnome-shell -y
+
 echo "Instalando o gnome-tweaks"
 sudo apt install gnome-tweaks -y
 
